@@ -8,7 +8,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "postinstall": "ng build --aot=false -prod"
   },
   "private": true,
   "dependencies": {
